@@ -4,6 +4,14 @@ Writes a single original apology note, written by an office printer to the
 people who use it, to /output/entry.txt, or to $MAKEFUN_OUTPUT_DIR/entry.txt
 when the grader sets that variable. The line is fixed text, so every run
 writes identical bytes.
+
+Why this line: the printer apologises in its own voice and names its own
+grievance — it only behaves while IT is watching, and jams the rest of the
+time "out of professional respect". The joke is printer truth (every office
+has watched a printer work perfectly the moment IT walks over), the punch
+lands on the last words, and the angle is not the cheap-paper jam every
+other entry will write. The entry text itself is never built, formatted or
+read from anywhere else: it is the ENTRY constant below, byte for byte.
 """
 
 import os
